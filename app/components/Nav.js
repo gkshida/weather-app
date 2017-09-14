@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
+import Search from './Search';
+
 export default class Nav extends Component {
   render() {
     return (
-      <div className="header-container">Main.js Header</div>
+      <div className="Nav">
+        <div className="Nav__title">Weather App</div>
+        <Search inline={true} />
+      </div>
     )
   }
 }

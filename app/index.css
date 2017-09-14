@@ -51,11 +51,18 @@ a {
   flex-direction: column;
 }
 
-.header-container {
+.Nav {
   display: flex;
+  justify-content: space-between;
+  background: rgba(252,90,44,.89);
+  color: #fff;
+  padding: 5px;
+}
+
+.Nav__title {
   font-size: 2.188em;
   font-weight: bold;
-  padding: 5px;
+  margin: 15px 0;
 }
 
 .home-container {
@@ -64,6 +71,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('./images/pattern.svg');
   background-size: cover;
 }
 
@@ -76,6 +84,11 @@ h1 {
 .Search {
   display: flex;
   flex-direction: column;
+}
+
+.Search--inline {
+  flex-direction: row;
+  align-items: center;
 }
 
 .Search__input {
